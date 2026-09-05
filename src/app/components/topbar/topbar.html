@@ -34,7 +34,7 @@
 
 
     <span class="font-medium text-slate-100">
-      {{ currentTime() | date:'EEE d MMM HH:mm' }}
+      {{ currentTime() | date:'EEE d MMM HH:mm':undefined:currentLang() }}
     </span>
   </div>
 </header>

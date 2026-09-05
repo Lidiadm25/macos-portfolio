@@ -1,7 +1,10 @@
 import { Component, inject, signal, OnInit, OnDestroy } from '@angular/core';
-import { DatePipe } from '@angular/common';
+import { DatePipe, registerLocaleData } from '@angular/common';
+import localeEs from '@angular/common/locales/es';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { LucideBattery, LucideWifi } from '@lucide/angular';
+
+registerLocaleData(localeEs);
 
 @Component({
   selector: 'app-topbar',
