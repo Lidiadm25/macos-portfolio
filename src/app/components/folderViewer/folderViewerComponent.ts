@@ -6,6 +6,7 @@ import {
   LucideExternalLink,
 } from '@lucide/angular';
 import { FolderItem } from '../../core/models/folder-item.model';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-folder-viewer',
@@ -15,6 +16,7 @@ import { FolderItem } from '../../core/models/folder-item.model';
     LucideFileText, 
     LucideImage, 
     LucideExternalLink,
+    TranslatePipe
   ],
   templateUrl: './folderViewer.html',
 })
