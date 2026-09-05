@@ -1,0 +1,46 @@
+{
+  "TOPBAR": {
+    "FINDER": "Finder",
+    "FILE": "File",
+    "EDIT": "Edit",
+    "VIEW": "View",
+    "WINDOW": "Window",
+    "HELP": "Help"
+  },
+  "DOCK": {
+    "ABOUT": "About Me",
+    "PROJECTS": "Projects",
+    "EXPERIENCE": "Experience",
+    "CONTACT": "Contact"
+  },
+  "ABOUT": {
+    "TITLE": "Lidia.txt",
+    "BIO": "Software developer focused on backend engineering and system architecture, with experience building modern, scalable web interfaces.",
+    "STACK_LABEL": "Core Stack:",
+    "STATUS_LABEL": "Status:",
+    "STATUS_VALUE": "Available for new projects and opportunities",
+    "TEXT": "I am a passionate software developer with a strong focus on backend engineering and system architecture. I have experience in building modern, scalable web interfaces and applications. My core stack includes technologies such as JavaScript, TypeScript, Node.js, and various frameworks and libraries. I am always eager to learn new technologies and improve my skills. Currently, I am available for new projects and opportunities."
+  },
+  "PROJECTS": {
+    "TITLE": "Projects",
+    "VIEW_CODE": "Code",
+    "VIEW_DEMO": "Live Demo",
+    "PIZZA4YOU_DESC": "Cross-platform order and management system with an administration portal and REST API.",
+    "LMS_DESC": "Modular Learning Management System (LMS) for course administration, user management, and interactive content."
+  },
+  "EXPERIENCE": {
+    "TITLE": "Work Experience",
+    "PRESENT": "Present",
+    "INNOVASUR_TITLE": "Fullstack Developer Internship",
+    "INNOVASUR_DETAIL": "During my 3-month internship, the first month focused on training and getting familiar with the technologies used in the project, primarily Angular and NestJS, through Udemy courses. Over the following two months, I developed an LMS (Learning Management System) platform from scratch, working autonomously and without using AI. The project includes the core features of an educational platform, such as course creation and management, lesson and content authoring, assignment submission and grading, grade viewing, and user management. Key features and implemented technologies include:\n- Frontend development with Angular, primarily utilizing DaisyUI alongside Tailwind CSS and CSS for the interface and custom styling, as well as testing Angular Material.\n- Backend development with NestJS, structuring the application architecture and its various functionalities.\n- Implementation of a PDF document viewer to streamline assignment grading.\n- Development of a global statistics system for teachers, using Chart.js for data visualization.\n- Implementation of an in-app messaging system between teachers and students.\n- MinIO integration as Object Storage for file management and storage.\n- Implementation of authentication and authorization using JWT, adhering to security best practices and standards.\n- End-to-end full-stack development, contributing across both frontend and backend modules."
+},
+  "CONTACT": {
+    "TITLE": "Contact",
+    "SUBTITLE": "Get in touch with me",
+    "EMAIL": "Email",
+    "GITHUB": "GitHub",
+    "LINKEDIN": "LinkedIn",
+    "LOCATION": "Location",
+    "LOCATION_VAL": "Spain"
+  }
+}

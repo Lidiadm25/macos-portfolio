@@ -1,0 +1,44 @@
+<footer class="fixed bottom-3 left-1/2 -translate-x-1/2 z-50 select-none">
+      <nav
+        (mousemove)="onMouseMove($event)"
+        (mouseleave)="onMouseLeave()"
+        class="flex items-end gap-2 px-3.5 py-2.5 rounded-2xl bg-white/20 border border-white/20 shadow-2xl transition-colors duration-300"
+      >
+        @for (item of dockItems; track item.id) {
+          <div #dockItem class="relative flex justify-center w-12 origin-bottom">
+  <button
+    type="button"
+    (click)="handleClick(item.id, dockItem)"
+    class="group relative flex flex-col items-center justify-center w-12 h-12 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 shadow-md transition-colors focus:outline-none origin-bottom"
+  >
+    <span
+      class="pointer-events-none absolute -top-10 px-2.5 py-1 rounded-md text-[11px] font-medium text-slate-100 bg-slate-900/90 border border-white/10 backdrop-blur-md shadow-lg opacity-0 transition-opacity duration-150 group-hover:opacity-100 whitespace-nowrap z-50"
+    >
+      {{ item.titleKey | translate }}
+    </span>
+
+    @switch (item.icon) {
+      @case ('file') {
+        <svg lucideFileText class="w-6 h-6 text-slate-100 pointer-events-none"></svg>
+      }
+      @case ('folder') {
+        <svg lucideFolderGit2 class="w-6 h-6 text-slate-100 pointer-events-none"></svg>
+      }
+      @case ('briefcase') {
+        <svg lucideBriefcase class="w-6 h-6 text-slate-100 pointer-events-none"></svg>
+      }
+      @case ('mail') {
+        <svg lucideMail class="w-6 h-6 text-slate-100 pointer-events-none"></svg>
+      }
+    }
+  </button>
+
+  <div class="absolute -bottom-2 flex items-center justify-center w-full pointer-events-none">
+    @if (windowService.isOpen(item.id)) {
+      <span class="w-1 h-1 rounded-full bg-white/90 shadow-[0_0_6px_rgba(255,255,255,0.8)]"></span>
+    }
+  </div>
+</div>
+        }
+      </nav>
+    </footer>

@@ -1,0 +1,51 @@
+ <div class="flex h-full w-full -m-4 overflow-hidden select-none">
+      <aside class="w-44 bg-slate-900/60 border-r border-white/10 p-3 flex flex-col gap-4 text-xs font-medium text-slate-400">
+        <div>
+          <span class="text-[10px] font-semibold tracking-wider text-slate-500 uppercase px-2">Favoritos</span>
+          <div class="mt-1 flex flex-col gap-0.5">
+            <button class="flex items-center gap-2 px-2 py-1.5 rounded-md bg-white/10 text-slate-200">
+              <svg lucideFolder class="w-3.5 h-3.5 text-sky-400 fill-sky-400/30"></svg>
+              <span>{{ currentFolderName() }}</span>
+            </button>
+            
+          </div>
+        </div>
+      </aside>
+
+      <main class="flex-1 p-5 overflow-auto bg-slate-950/40">
+        <div class="grid grid-cols-3 sm:grid-cols-4 gap-4">
+          @for (item of items(); track item.id) {
+            <button
+              type="button"
+              (click)="handleItemClick(item)"
+              class="group flex flex-col items-center justify-center p-3 rounded-lg hover:bg-white/10 transition-all text-center cursor-pointer"
+            >
+              <div class="relative flex items-center justify-center w-12 h-12 mb-1.5 drop-shadow-md group-hover:scale-105 transition-transform">
+                @switch (item.type) {
+                  @case ('folder') {
+                    <svg lucideFolder class="w-10 h-10 text-sky-400 fill-sky-400/30 stroke-[1.5]"></svg>
+                  }
+        
+                  @case ('image') {
+                    <svg lucideImage class="w-10 h-10 text-purple-400 stroke-[1.5]"></svg>
+                  }
+                  @case ('link') {
+                    <svg lucideExternalLink class="w-10 h-10 text-blue-400 stroke-[1.5]"></svg>
+                  }
+                  @default {
+                    <svg lucideFileText class="w-10 h-10 text-slate-300 stroke-[1.5]"></svg>
+                  }
+                }
+              </div>
+
+              <span class="text-xs font-medium text-slate-200 line-clamp-3 leading-tight">
+                {{ item.name }}
+              </span>
+              @if (item.size) {
+                <span class="text-[10px] text-slate-500 mt-0.5">{{ item.size }}</span>
+              }
+            </button>
+          }
+        </div>
+      </main>
+    </div>

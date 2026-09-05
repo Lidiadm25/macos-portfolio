@@ -1,0 +1,47 @@
+{
+  "TOPBAR": {
+    "FINDER": "Finder",
+    "FILE": "Archivo",
+    "EDIT": "Editar",
+    "VIEW": "Ver",
+    "WINDOW": "Ventana",
+    "HELP": "Ayuda"
+  },
+  "DOCK": {
+    "ABOUT": "Sobre mí",
+    "PROJECTS": "Proyectos",
+    "EXPERIENCE": "Experiencia",
+    "CONTACT": "Contacto"
+  },
+  "ABOUT": {
+    "TITLE": "Lidia.txt",
+    "BIO": "Desarrolladora de software orientada a la ingeniería backend y arquitectura de sistemas, con experiencia en el desarrollo de interfaces web modernas y escalables.",
+    "STACK_LABEL": "Stack Principal:",
+    "STATUS_LABEL": "Estado:",
+    "STATUS_VALUE": "Disponible para nuevos proyectos y oportunidades",
+    "TEXT": "Soy una desarrolladora de software apasionada con un fuerte enfoque en la ingeniería backend y la arquitectura de sistemas. Tengo experiencia en la construcción de interfaces web modernas y escalables. Mi stack principal incluye tecnologías como JavaScript, TypeScript, Node.js y diversos frameworks y bibliotecas. Siempre estoy ansiosa por aprender nuevas tecnologías y mejorar mis habilidades. Actualmente, estoy disponible para nuevos proyectos y oportunidades."
+  },
+  "PROJECTS": {
+    "TITLE": "Proyectos",
+    "VIEW_CODE": "Código",
+    "VIEW_DEMO": "Ver demo",
+    "PIZZA4YOU_DESC": "Plataforma multiplataforma de gestión y pedidos con portal de administración y API REST.",
+    "LMS_DESC": "Sistema de gestión de aprendizaje (LMS) modular para administración de cursos, usuarios y contenido interactivo."
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experiencia Laboral",
+    "PRESENT": "Actualidad",
+    "INNOVASUR_TITLE": "Fullstack Developer Internship",
+   
+  "INNOVASUR_DETAIL": "Durante mis 3 meses de prácticas, el primer mes estuvo enfocado en la formación y familiarización con las tecnologías utilizadas en el proyecto, principalmente Angular y NestJS, mediante cursos de Udemy. Durante los dos meses siguientes, desarrollé desde cero una plataforma LMS (Learning Management System), trabajando de forma autónoma y sin utilizar IA. El proyecto cuenta con las funcionalidades principales de una plataforma educativa, incluyendo creación y gestión de cursos, creación de lecciones y contenidos, entrega y corrección de tareas, visualización de calificaciones y gestión de usuarios. Entre las principales funcionalidades y tecnologías implementadas destacan:\n- Desarrollo del frontend con Angular, utilizando principalmente DaisyUI, junto con Tailwind CSS y CSS para la interfaz y estilos personalizados, también probando Angular Materials.\n- Desarrollo del backend con NestJS, estructurando la aplicación y sus diferentes funcionalidades.\n- Implementación de un sistema de visualización de documentos PDF para facilitar la corrección de tareas.\n- Desarrollo de un sistema de estadísticas globales para profesores, utilizando Chart.js para la representación visual de los datos.\n- Implementación de un sistema de mensajería entre profesores y alumnos.\n- Integración de MinIO como Object Storage para la gestión y almacenamiento de archivos.\n- Implementación de autenticación y autorización mediante JWT, siguiendo buenas prácticas y estándares de seguridad.\n- Desarrollo integral de la plataforma, participando tanto en la parte frontend como backend."
+},
+  "CONTACT": {
+    "TITLE": "Contacto",
+    "SUBTITLE": "Ponte en contacto conmigo",
+    "EMAIL": "Email",
+    "GITHUB": "GitHub",
+    "LINKEDIN": "LinkedIn",
+    "LOCATION": "Ubicación",
+    "LOCATION_VAL": "España"
+  }
+}
