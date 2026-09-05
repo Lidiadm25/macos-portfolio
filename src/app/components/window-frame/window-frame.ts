@@ -110,13 +110,13 @@ export class WindowFrameComponent {
     event.preventDefault();
     event.stopPropagation();
 
-    // Guardamos la posición inicial del ratón y el tamaño inicial de la ventana
+    // posiciones y tamaños originales
     const startX = event.clientX;
     const startY = event.clientY;
     const startWidth = this.windowData().size.width;
     const startHeight = this.windowData().size.height;
 
-    // Función que se ejecuta al mover el ratón
+    // al mover el ratón
     const onMouseMove = (e: MouseEvent) => {
       // Calculamos el nuevo tamaño aplicando límites mínimos (ej. 300x200)
       const newWidth = Math.max(300, startWidth + (e.clientX - startX));
@@ -131,7 +131,7 @@ export class WindowFrameComponent {
       document.removeEventListener('mouseup', onMouseUp);
     };
 
-    // Añadimos los listeners al document para que el ratón no "escape" si te mueves muy rápido
+    
     document.addEventListener('mousemove', onMouseMove);
     document.addEventListener('mouseup', onMouseUp);
   }

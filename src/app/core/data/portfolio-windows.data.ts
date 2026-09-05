@@ -46,9 +46,9 @@ export const PORTFOLIO_WINDOWS = {
     },
   },
   details: {
-    titleKey: 'ESPORTS.DETAILS',
-    position: { x: 260, y: 150 },
-    size: { width: 540, height: 360 },
+    titleKey: 'ESPORTS.TITLE',
+    position: { x: 660, y: 150 },
+    size: { width: 600, height: 560 },
     content: {
       type: 'text',
       textKey: 'ESPORTS.DETAILS',
@@ -74,7 +74,7 @@ export const PORTFOLIO_WINDOWS = {
       items: [
         { id: 'pizza4you', name: 'Pizza4You-API', type: 'code', size: 'Java / Spring Boot', action: () => window.open('https://github.com/Lidiadm25/Pizza4You-Backend', '_blank') },
         { id: 'lms-platform', name: 'LMS-Platform', type: 'code', size: 'NestJS / Angular', action: () => window.open('https://github.com/Lidiadm25/lms-platform', '_blank') },
-        { id: 'portfolio-macos', name: 'Portfolio-macOS', type: 'code', size: 'Angular 21', action: () => window.open('https://github.com/Lidiadm25/portfolio-macos', '_blank') },
+        { id: 'portfolio-macos', name: 'Portfolio-macOS', type: 'code', size: 'Angular 21', action: () => window.open('https://github.com/Lidiadm25/macos-portfolio', '_blank') },
       ],
     },
   },
@@ -122,7 +122,7 @@ export const PORTFOLIO_WINDOWS = {
         },
         {
           id: 'esports-links',
-          name: 'E-sports Links',
+          name: 'Links',
           type: 'folder',
           size: '2022 - 2024',
         }
@@ -132,7 +132,7 @@ export const PORTFOLIO_WINDOWS = {
 
    links : {
     titleKey: 'ESPORTS.LINKS',
-    position: { x: 460, y: 150 },
+    position: { x: 260, y: 150 },
     size: { width: 540, height: 360 },
     content: {
       type: 'folder',
