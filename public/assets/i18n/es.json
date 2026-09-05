@@ -7,6 +7,9 @@
     "WINDOW": "Ventana",
     "HELP": "Ayuda"
   },
+   "FOLDER":{
+    "FAV": "Favoritos"
+  },
   "DOCK": {
     "ABOUT": "Sobre mí",
     "PROJECTS": "Proyectos",
@@ -15,11 +18,8 @@
   },
   "ABOUT": {
     "TITLE": "Lidia.txt",
-    "BIO": "Desarrolladora de software orientada a la ingeniería backend y arquitectura de sistemas, con experiencia en el desarrollo de interfaces web modernas y escalables.",
-    "STACK_LABEL": "Stack Principal:",
-    "STATUS_LABEL": "Estado:",
-    "STATUS_VALUE": "Disponible para nuevos proyectos y oportunidades",
-    "TEXT": "Soy una desarrolladora de software apasionada con un fuerte enfoque en la ingeniería backend y la arquitectura de sistemas. Tengo experiencia en la construcción de interfaces web modernas y escalables. Mi stack principal incluye tecnologías como JavaScript, TypeScript, Node.js y diversos frameworks y bibliotecas. Siempre estoy ansiosa por aprender nuevas tecnologías y mejorar mis habilidades. Actualmente, estoy disponible para nuevos proyectos y oportunidades."
+    "TEXT": "¡Buenas! Soy desarrolladora junior centrada sobre todo en backend con Java y Spring Boot, aunque también me muevo cómoda con Angular en el front.\n\nSi tuviera que definirme: soy muy trabajadora, empática y de las que piensan que un toque de humor hace que el equipo trabaje mejor (y que pelearse con un bug sea bastante más llevadero). Me encanta picar código, aprender cosas nuevas sobre la marcha y no parar hasta dar con la tecla.\n\nVengo de competir a nivel profesional en esports, así que la disciplina, el trabajo en equipo real y no quemarme bajo presión son cosas que ya traigo de serie. Ahora mismo busco un equipo donde pueda aprender de profesionales y aportar desde el primer día."
+  
   },
   "PROJECTS": {
     "TITLE": "Proyectos",
@@ -32,8 +32,10 @@
     "TITLE": "Experiencia Laboral",
     "PRESENT": "Actualidad",
     "INNOVASUR_TITLE": "Fullstack Developer Internship",
-   
-  "INNOVASUR_DETAIL": "Durante mis 3 meses de prácticas, el primer mes estuvo enfocado en la formación y familiarización con las tecnologías utilizadas en el proyecto, principalmente Angular y NestJS, mediante cursos de Udemy. Durante los dos meses siguientes, desarrollé desde cero una plataforma LMS (Learning Management System), trabajando de forma autónoma y sin utilizar IA. El proyecto cuenta con las funcionalidades principales de una plataforma educativa, incluyendo creación y gestión de cursos, creación de lecciones y contenidos, entrega y corrección de tareas, visualización de calificaciones y gestión de usuarios. Entre las principales funcionalidades y tecnologías implementadas destacan:\n- Desarrollo del frontend con Angular, utilizando principalmente DaisyUI, junto con Tailwind CSS y CSS para la interfaz y estilos personalizados, también probando Angular Materials.\n- Desarrollo del backend con NestJS, estructurando la aplicación y sus diferentes funcionalidades.\n- Implementación de un sistema de visualización de documentos PDF para facilitar la corrección de tareas.\n- Desarrollo de un sistema de estadísticas globales para profesores, utilizando Chart.js para la representación visual de los datos.\n- Implementación de un sistema de mensajería entre profesores y alumnos.\n- Integración de MinIO como Object Storage para la gestión y almacenamiento de archivos.\n- Implementación de autenticación y autorización mediante JWT, siguiendo buenas prácticas y estándares de seguridad.\n- Desarrollo integral de la plataforma, participando tanto en la parte frontend como backend."
+    "INNOVASUR_DETAIL": "Durante mis 3 meses de prácticas, el primer mes estuvo enfocado en la formación y familiarización con las tecnologías utilizadas en el proyecto, principalmente Angular y NestJS, mediante cursos de Udemy. Durante los dos meses siguientes, desarrollé desde cero una plataforma LMS (Learning Management System), trabajando de forma autónoma y sin utilizar IA. El proyecto cuenta con las funcionalidades principales de una plataforma educativa, incluyendo creación y gestión de cursos, creación de lecciones y contenidos, entrega y corrección de tareas, visualización de calificaciones y gestión de usuarios. Entre las principales funcionalidades y tecnologías implementadas destacan:\n- Desarrollo del frontend con Angular, utilizando principalmente DaisyUI, junto con Tailwind CSS y CSS para la interfaz y estilos personalizados, también probando Angular Materials.\n- Desarrollo del backend con NestJS, estructurando la aplicación y sus diferentes funcionalidades.\n- Implementación de un sistema de visualización de documentos PDF para facilitar la corrección de tareas.\n- Desarrollo de un sistema de estadísticas globales para profesores, utilizando Chart.js para la representación visual de los datos.\n- Implementación de un sistema de mensajería entre profesores y alumnos.\n- Integración de MinIO como Object Storage para la gestión y almacenamiento de archivos.\n- Implementación de autenticación y autorización mediante JWT, siguiendo buenas prácticas y estándares de seguridad.\n- Desarrollo integral de la plataforma, participando tanto en la parte frontend como backend.",
+     "DETAIL":{
+      "ESPORTS": "E-sports"
+    }
 },
   "CONTACT": {
     "TITLE": "Contacto",
@@ -43,5 +45,13 @@
     "LINKEDIN": "LinkedIn",
     "LOCATION": "Ubicación",
     "LOCATION_VAL": "España"
+  },
+  
+  
+  "ESPORTS": {
+    "TITLE": "Detalles de E-sports",
+    "DETAILS": "Trayectoria competitiva de alto rendimiento (2022–2024) en el circuito oficial VCT Game Changers EMEA, compitiendo al máximo nivel profesional europeo con organizaciones de primer nivel como MAD Lions KOI, Giants Gaming y Rebels Gaming.\n\nGalardonada oficialmente con el premio 'Game Changers Graduates' en reconocimiento a la excelencia competitiva y a la representación pionera dentro del ecosistema nacional e internacional. Durante esta etapa alcancé los primeros puestos del ranking regional. \n\nEn el ámbito corporativo y de imagen, colaboré activamente con directivas, figuras públicas (incluyendo al futbolista David de Gea en Rebels Gaming) y equipos de marketing para fortalecer el posicionamiento de marca, atender compromisos con medios de comunicación y respaldar acuerdos con patrocinadores corporativos.\n\nEn la carpeta 'Links' se recopilan noticias de prensa, artículos y entrevistas que documentan los hitos de esta etapa.",
+    "LINKS": "Links"
   }
+
 }

@@ -7,19 +7,18 @@
     "WINDOW": "Window",
     "HELP": "Help"
   },
+  "FOLDER":{
+    "FAV": "Favorites"
+  },
   "DOCK": {
-    "ABOUT": "About Me",
+    "ABOUT": "About me",
     "PROJECTS": "Projects",
     "EXPERIENCE": "Experience",
     "CONTACT": "Contact"
   },
   "ABOUT": {
     "TITLE": "Lidia.txt",
-    "BIO": "Software developer focused on backend engineering and system architecture, with experience building modern, scalable web interfaces.",
-    "STACK_LABEL": "Core Stack:",
-    "STATUS_LABEL": "Status:",
-    "STATUS_VALUE": "Available for new projects and opportunities",
-    "TEXT": "I am a passionate software developer with a strong focus on backend engineering and system architecture. I have experience in building modern, scalable web interfaces and applications. My core stack includes technologies such as JavaScript, TypeScript, Node.js, and various frameworks and libraries. I am always eager to learn new technologies and improve my skills. Currently, I am available for new projects and opportunities."
+    "TEXT": "Hey! I'm a junior developer focused on Java and Spring Boot on the backend, while also comfortable building interfaces with Angular on the frontend.\n\nIf I had to describe myself: I'm hard-working, easy to work with, and a firm believer that good humor makes teamwork way better (and makes fixing bugs a lot less painful). I love coding, learning new tools on the fly, and sticking with a problem until everything clicks.\n\nComing from a professional esports background, discipline, real teamwork, and staying cool under pressure are second nature to me. Right now, I'm looking for a team where I can learn from experienced developers, put in the work, and contribute from day one."
   },
   "PROJECTS": {
     "TITLE": "Projects",
@@ -32,7 +31,10 @@
     "TITLE": "Work Experience",
     "PRESENT": "Present",
     "INNOVASUR_TITLE": "Fullstack Developer Internship",
-    "INNOVASUR_DETAIL": "During my 3-month internship, the first month focused on training and getting familiar with the technologies used in the project, primarily Angular and NestJS, through Udemy courses. Over the following two months, I developed an LMS (Learning Management System) platform from scratch, working autonomously and without using AI. The project includes the core features of an educational platform, such as course creation and management, lesson and content authoring, assignment submission and grading, grade viewing, and user management. Key features and implemented technologies include:\n- Frontend development with Angular, primarily utilizing DaisyUI alongside Tailwind CSS and CSS for the interface and custom styling, as well as testing Angular Material.\n- Backend development with NestJS, structuring the application architecture and its various functionalities.\n- Implementation of a PDF document viewer to streamline assignment grading.\n- Development of a global statistics system for teachers, using Chart.js for data visualization.\n- Implementation of an in-app messaging system between teachers and students.\n- MinIO integration as Object Storage for file management and storage.\n- Implementation of authentication and authorization using JWT, adhering to security best practices and standards.\n- End-to-end full-stack development, contributing across both frontend and backend modules."
+    "INNOVASUR_DETAIL": "During my 3-month internship, the first month focused on training and getting familiar with the technologies used in the project, primarily Angular and NestJS, through Udemy courses. Over the following two months, I developed an LMS (Learning Management System) platform from scratch, working autonomously and without using AI. The project includes the core features of an educational platform, such as course creation and management, lesson and content authoring, assignment submission and grading, grade viewing, and user management. Key features and implemented technologies include:\n- Frontend development with Angular, primarily utilizing DaisyUI alongside Tailwind CSS and CSS for the interface and custom styling, as well as testing Angular Material.\n- Backend development with NestJS, structuring the application architecture and its various functionalities.\n- Implementation of a PDF document viewer to streamline assignment grading.\n- Development of a global statistics system for teachers, using Chart.js for data visualization.\n- Implementation of an in-app messaging system between teachers and students.\n- MinIO integration as Object Storage for file management and storage.\n- Implementation of authentication and authorization using JWT, adhering to security best practices and standards.\n- End-to-end full-stack development, contributing across both frontend and backend modules.",
+     "DETAIL":{
+      "ESPORTS": "E-sports"
+    }
 },
   "CONTACT": {
     "TITLE": "Contact",
@@ -42,5 +44,11 @@
     "LINKEDIN": "LinkedIn",
     "LOCATION": "Location",
     "LOCATION_VAL": "Spain"
+  },
+
+  "ESPORTS": {
+    "TITLE": "E-sports details",
+    "DETAILS": "High-performance competitive career (2022–2024) in the official VCT Game Changers EMEA circuit, competing at the highest European professional level representing tier-one organizations such as MAD Lions KOI, Giants Gaming, and Rebels Gaming.\n\nOfficially honored with the 'Game Changers Graduates' award in recognition of competitive excellence and pioneering representation across the national and international scene. Throughout this period, I reached top regional standings. \n\nBeyond competition, I worked closely with club leadership, high-profile stakeholders (including professional footballer David de Gea at Rebels Gaming), and marketing teams to elevate brand presence, handle media relations, and support corporate sponsorship initiatives.\n\nA curated collection of press coverage, media articles, and interviews documenting key milestones from this era can be accessed inside the 'Links' folder.",
+    "LINKS": "Links"
   }
 }
