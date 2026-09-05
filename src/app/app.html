@@ -42,11 +42,15 @@
               />
             }
             @case ('contact') {
-
-              <!-- TODO: Implement contact component -->
               <div class="flex h-full flex-col justify-center gap-3 text-center text-slate-300">
                 <h2 class="text-lg font-semibold text-slate-100">{{ 'CONTACT.TITLE' | translate }}</h2>
                 <p>{{ 'CONTACT.SUBTITLE' | translate }}</p>
+                <a
+                  href="mailto:lidiadmdt@gmail.com"
+                  class="mx-auto inline-flex cursor-pointer items-center rounded-md px-3 py-2 text-sky-300 transition-colors hover:bg-white/10 hover:text-sky-200 focus:outline-none focus:ring-2 focus:ring-sky-400"
+                >
+                  {{ 'CONTACT.EMAIL' | translate }}: lidiadmdt@gmail.com
+                </a>
               </div>
             }
             @case ('text') {
